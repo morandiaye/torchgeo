@@ -30,6 +30,7 @@ from .eurosat import EuroSAT, EuroSATDataModule
 from .geo import (
     GeoDataset,
     RasterDataset,
+    UnionDataset
     VectorDataset,
     VisionClassificationDataset,
     VisionDataset,
@@ -146,6 +147,7 @@ __all__ = (
     # Base classes
     "GeoDataset",
     "RasterDataset",
+    "UnionDataset",
     "VectorDataset",
     "VisionDataset",
     "VisionClassificationDataset",
